@@ -3,3 +3,4 @@ tensorflow==2.15.0
 matplotlib
 numpy
 python-3.10.13
+gunicorn
