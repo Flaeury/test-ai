@@ -1,6 +1,5 @@
-Flask
-tensorflow
-matplotlib
-numpy
-python-3.10.13
-gunicorn
+Flask==3.0.3
+tensorflow==2.17.0
+matplotlib==3.9.2
+numpy==1.26.4
+gunicorn==20.1.0
