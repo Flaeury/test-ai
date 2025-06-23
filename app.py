@@ -7,8 +7,6 @@ import base64
 import matplotlib
 import os
 
-model_path = 'untitled0.py'
-
 app = Flask(__name__)
 
 mnist_data_path = os.path.join('data', 'mnist.npz')
