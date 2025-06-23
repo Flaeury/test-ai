@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from tensorflow.keras.datasets import mnist
+# from tensorflow.keras.datasets import mnist
 import matplotlib.pyplot as plt
 import numpy as np
 import io
@@ -49,4 +49,4 @@ def init():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
